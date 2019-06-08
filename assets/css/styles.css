@@ -20,7 +20,7 @@
 
 .myFooter {
   font-size: 1.3rem;
-  padding: 3rem 1.5rem 3rem;
+  padding: 2rem 1.5rem 2rem;
 }
 
 .navbar.is-light .navbar-end>a.navbar-item.is-active {
@@ -56,4 +56,29 @@
   border-radius: 15em;
   width: 15.5em;
   height: 15em;
+}
+
+.subtitle {
+  font-size: 1.5em;
+}
+
+#special {
+  height: 12em;
+  padding: 0 auto;
+}
+
+.myl {
+  margin: 0.5em;
+}
+
+.skill {
+  padding-bottom: 0;
+}
+
+.myLogo {
+  padding-bottom: 2em;
+}
+
+.workP {
+  font-size: 1.21em;
 }
