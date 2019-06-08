@@ -6,6 +6,10 @@
   <title>Md. Sahil Khan | Home</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
 </head>
 <body class="has-navbar-fixed-top">
@@ -59,7 +63,10 @@
       </h1>
       <br />
       <h2 class="subtitle">
-        <strong>Computer Engineering Undergraduate</strong>
+        <strong id="s1" class="">A Computer Engineering Undergraduate</strong>
+        <strong id="s2" class="is-hidden">A Web Developer</strong>
+        <strong id="s3" class="is-hidden">A Competitive Programmer</strong>
+        <strong id="s4" class="is-hidden">A Technology Enthusiast</strong>
       </h2>
       </div>
   </section>
@@ -90,21 +97,7 @@
     </div>
   </footer>
 
-  <script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', () => {
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-    if ($navbarBurgers.length > 0) {
-      $navbarBurgers.forEach( el => {
-        el.addEventListener('click', () => {
-          const target = el.dataset.target;
-          const $target = document.getElementById(target);
-          el.classList.toggle('is-active');
-          $target.classList.toggle('is-active');
-        });
-      });
-    }
-  });
-  </script>
+  <script type="text/javascript" src="./assets/js/script.js"></script>
 
 </body>
 </html>
