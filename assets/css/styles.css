@@ -31,3 +31,17 @@
 .navbar.is-light .navbar-end>a.navbar-item:hover {
   background-color: #cfd8da8a;
 }
+
+.img{
+  text-align: center;
+}
+
+.section {
+  text-align: center;
+}
+
+#myGif {
+  border-radius: 15em;
+  width: 15.5em;
+  height: 15em;
+}
