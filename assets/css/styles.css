@@ -20,6 +20,7 @@
 
 .myFooter {
   font-size: 1.3rem;
+  padding: 3rem 1.5rem 3rem;
 }
 
 .navbar.is-light .navbar-end>a.navbar-item.is-active {
