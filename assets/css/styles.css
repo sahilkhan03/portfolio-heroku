@@ -1,5 +1,16 @@
 #myBrand {
   font-size: 1.75rem;
+  background-color: #ECEFF1;
+}
+
+.navbar.is-light .navbar-brand>a.navbar-item:hover {
+    background-color: #cfd8da8a;
+    color: #363636
+}
+
+.navbar-item {
+  transition-property: background;
+  transition-duration: 0.25s;
 }
 
 #myNavItems {
