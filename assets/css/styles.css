@@ -11,10 +11,23 @@
   font-size: 1.3rem;
 }
 
-#contactLinks{
-  font-size: 2rem;
+.navbar.is-light .navbar-end>a.navbar-item.is-active {
+      background-color: #cfd8da8a;
 }
+
+.navbar.is-light {
+    background-color: #ECEFF1;
+  }
+
+  .footer {
+    background-color: #ECEFF1;
+  }
 
 .clink {
   padding: 1.8rem;
+  font-size: 2rem;
+}
+
+.navbar.is-light .navbar-end>a.navbar-item:hover {
+  background-color: #cfd8da8a;
 }
