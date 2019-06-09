@@ -91,3 +91,11 @@
 .card {
   margin: 0.5em;
 }
+
+figure {
+  margin: auto;
+}
+
+.skillImg {
+  height: 5.5em;
+}
