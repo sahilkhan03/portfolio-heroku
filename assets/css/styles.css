@@ -99,3 +99,7 @@ figure {
 .skillImg {
   height: 5.5em;
 }
+
+.is-half {
+  margin: 0.5em;
+}
