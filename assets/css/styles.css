@@ -69,6 +69,7 @@
 
 .myl {
   margin: 0.5em;
+  font-weight: 500;
 }
 
 .skill {
@@ -85,4 +86,13 @@
 
 .pDetails {
   font-size: 1.1em;
+}
+
+.card {
+  margin: auto 0.5em;
+}
+
+.myCard :hover {
+  /* box-shadow: rgba(10, 10, 10, 0.1) 0px 2px 10px, rgba(10, 10, 10, 0.1) 0px 0px 0px 1px; */
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
