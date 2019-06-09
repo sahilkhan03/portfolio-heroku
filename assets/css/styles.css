@@ -103,3 +103,7 @@ figure {
 .is-half {
   margin: 0.5em;
 }
+
+iframe  {
+  height: 100%;
+}
