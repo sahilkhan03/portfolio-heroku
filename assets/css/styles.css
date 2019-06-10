@@ -107,3 +107,7 @@ figure {
 iframe  {
   height: 100%;
 }
+
+.label {
+  text-align: left;
+}

@@ -59,46 +59,85 @@
         <h2 class="title">Contact Me</h2><hr />
         <div class="columns">
           <div class="column is-half content" style="text-align: left;">
-            <p class="subtitle is-5" ">If you have any question, feel free to contact me. Fill out the following form. All fields are required. I look forward to hear from you.</p><hr />
+            <p class="subtitle is-5">If you have any question, feel free to contact me. Fill out the following form. All fields are required. I look forward to hear from you.</p><hr />
             <h3 class="title is-5"><i class="fas fa-map-marker-alt"></i> ADDRESS</h3>
             <div class="mapouter"  style="padding-bottom:16em; position:relative; display:block; width: 100%">
               <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=sector%2011%2C%20rohini%20&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" style="position:absolute; top:0; left: 0"></iframe></div>
             </div>
             <h3 class="title is-5"><i class="fas fa-envelope"></i> EMAIL</h3>
-              <p class="title is-6" style="font-size: 1.1em;">
-                <a href="mailto:sahilkhan0307.sk@gmail.com">sahilkhan0307.sk@gmail.com</a></p>
+            <p class="title is-6" style="font-size: 1.1em;">
+              <a href="mailto:sahilkhan0307.sk@gmail.com">sahilkhan0307.sk@gmail.com</a></p>
             </div>
             <div class="column is-half">
-
+              <form style="padding:0 1em 1em;" action="https://formspree.io/sahilkhan0307.sk@gmail.com" method="POST">
+                <div class="field">
+                  <label class="label is-medium">First Name</label>
+                  <p class="control">
+                    <input name="firstname" class="input" type="text" placeholder="Enter Your First Name" required>
+                  </p>
+                </div>
+                <div class="field">
+                  <label class="label is-medium">Last Name</label>
+                  <p class="control">
+                    <input name="lastname" class="input" type="text" placeholder="Enter Your Last Name" required>
+                  </p>
+                </div>
+                <div class="field">
+                  <label class="label is-medium">Phone</label>
+                  <p class="control">
+                    <input name="phone" class="input" type="number" placeholder="Enter Your Phone Number" required>
+                  </p>
+                </div>
+                <div class="field">
+                  <label class="label is-medium">Email</label>
+                  <p class="control">
+                    <input name="email" class="input" type="text" placeholder="Enter Your Email Address" required>
+                  </p>
+                </div>
+                <div class="field">
+                  <label class="label is-medium">Message</label>
+                  <p class="control">
+                    <textarea name="message" rows="5" style="height: 100%;" class="input" type="text" placeholder="Enter Your Message" required></textarea>
+                  </p>
+                </div>
+                <div class="field">
+                  <p class="control">
+                    <button type="submit" class="button is-outlined is-medium is-primary">
+                      Send
+                    </button>
+                  </p>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="footer myFooter">
-      <div class="content has-text-centered">
-        <p>
-          Made by  <strong><a href="./index.html">Md. Sahil Khan</a></strong>
-        </p>
-        <div id="contactLinks">
-          <span class="icon clink">
-            <a href="https://github.com/sahilkhan03"><i style="color: black;" class="fab fa-github"></i></a>
-          </span>
-          <span class="icon clink">
-            <a href="https://www.linkedin.com/in/md-sahil-khan-412799179/"><i style="color : #3273dc" class="fab fa-linkedin"></i></a>
-          </span>
-          <span class="icon clink">
-            <a href="mailto:sahilkhan0307.sk@gmail.com"><i style="color: #d93025;" class="fas fa-envelope"></i></a>
-          </span>
-          <span class="icon clink">
-            <a href="https://api.whatsapp.com/send?phone=919599276643"><i style="color: green;" class="fab fa-whatsapp"></i></a>
-          </span>
-        </div>
+  <footer class="footer myFooter">
+    <div class="content has-text-centered">
+      <p>
+        Made by  <strong><a href="./index.html">Md. Sahil Khan</a></strong>
+      </p>
+      <div id="contactLinks">
+        <span class="icon clink">
+          <a href="https://github.com/sahilkhan03"><i style="color: black;" class="fab fa-github"></i></a>
+        </span>
+        <span class="icon clink">
+          <a href="https://www.linkedin.com/in/md-sahil-khan-412799179/"><i style="color : #3273dc" class="fab fa-linkedin"></i></a>
+        </span>
+        <span class="icon clink">
+          <a href="mailto:sahilkhan0307.sk@gmail.com"><i style="color: #d93025;" class="fas fa-envelope"></i></a>
+        </span>
+        <span class="icon clink">
+          <a href="https://api.whatsapp.com/send?phone=919599276643"><i style="color: green;" class="fab fa-whatsapp"></i></a>
+        </span>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script type="text/javascript" src="./assets/js/script.js"></script>
+  <script type="text/javascript" src="./assets/js/script.js"></script>
 
-  </body>
-  </html>
+</body>
+</html>
