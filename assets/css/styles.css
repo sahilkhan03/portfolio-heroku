@@ -111,3 +111,11 @@ iframe  {
 .label {
   text-align: left;
 }
+
+.title {
+  font-size: 1.6rem;
+}
+
+.is-4 {
+  font-size: 0.8em;
+}
