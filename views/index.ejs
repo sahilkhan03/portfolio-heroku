@@ -1,117 +1,147 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Md. Sahil Khan | Home</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
-</head>
-<body class="has-navbar-fixed-top">
-
-  <header>
-    <nav id="myNav" class="navbar is-fixed-top is-light" role="navigation" aria-label="main navigation">
-      <div class="container">
-        <div id="myBrand" class="navbar-brand">
-          <a class="navbar-item navbar-start" href="./index.html">
-            <strong>Sahil</strong>
-          </a>
-          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="myNavItems">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-        <div id="myNavItems" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item is-tab is-active" href="./index.html">
-              Home
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Md. Sahil Khan | Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  </head>
+  <body class="has-navbar-fixed-top">
+    <header>
+      <nav
+        id="myNav"
+        class="navbar is-fixed-top is-light"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="container">
+          <div id="myBrand" class="navbar-brand">
+            <a class="navbar-item navbar-start" href="/index">
+              <strong>Sahil</strong>
             </a>
-            <a class="navbar-item is-tab" href="./work.html">
-              Work
-            </a>
-            <a class="navbar-item is-tab" href="./skills.html">
-              Skills
-            </a>
-            <a class="navbar-item is-tab" href="./about.html">
-              About
-            </a>
-            <a class="navbar-item is-tab" href="./contact.html">
-              Contact
-            </a>
-            <a class="navbar-item is-tab">
-              Resume
+            <a
+              role="button"
+              class="navbar-burger burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="myNavItems"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
             </a>
           </div>
+          <div id="myNavItems" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-tab is-active" href="/index">
+                Home
+              </a>
+              <a class="navbar-item is-tab" href="/work">
+                Work
+              </a>
+              <a class="navbar-item is-tab" href="/skills">
+                Skills
+              </a>
+              <a class="navbar-item is-tab" href="/about">
+                About
+              </a>
+              <a class="navbar-item is-tab" href="/contact">
+                Contact
+              </a>
+              <a class="navbar-item is-tab">
+                Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section myLogo">
+      <div class="container img">
+        <img id="myGif" src="/img/main.gif" />
+      </div>
+    </section>
+
+    <section id="special" class="section">
+      <div class="container">
+        <h1 class="title">
+          Hi! I am Sahil
+        </h1>
+        <br />
+        <h2 class="subtitle">
+          <strong id="s1">Computer Engineering Undergraduate</strong>
+          <strong id="s2" style="display: none;">Web Developer</strong>
+          <strong id="s3" style="display: none;">Competitive Programmer</strong>
+          <strong id="s4" style="display: none;">Technology Enthusiast</strong>
+        </h2>
+      </div>
+    </section>
+
+    <section class="section skill">
+      <div class="container">
+        <a class="button is-info is-outlined is-medium myl" href="/work"
+          >Work</a
+        >
+        <a class="button is-info is-outlined is-medium myl" href="/skills"
+          >Skills</a
+        >
+        <a class="button is-info is-outlined is-medium myl" href="/about"
+          >About</a
+        >
+        <a class="button is-info is-outlined is-medium myl" href="/contact"
+          >Contact</a
+        >
+      </div>
+    </section>
+
+    <section class="section">
+      <strong class="workP">Work in progress</strong>
+    </section>
+
+    <footer class="footer myFooter">
+      <div class="content has-text-centered">
+        <p>
+          Made by <strong><a href="/index">Md. Sahil Khan</a></strong>
+        </p>
+        <div id="contactLinks">
+          <span class="icon clink">
+            <a href="https://github.com/sahilkhan03"
+              ><i style="color: black;" class="fab fa-github"></i
+            ></a>
+          </span>
+          <span class="icon clink">
+            <a href="https://www.linkedin.com/in/md-sahil-khan-412799179/"
+              ><i style="color : #3273dc" class="fab fa-linkedin"></i
+            ></a>
+          </span>
+          <span class="icon clink">
+            <a href="mailto:sahilkhan0307.sk@gmail.com"
+              ><i style="color: #d93025;" class="fas fa-envelope"></i
+            ></a>
+          </span>
+          <span class="icon clink">
+            <a href="https://api.whatsapp.com/send?phone=919599276643"
+              ><i style="color: green;" class="fab fa-whatsapp"></i
+            ></a>
+          </span>
         </div>
       </div>
-    </nav>
-  </header>
+    </footer>
 
-  <section class="section myLogo">
-    <div class="container img">
-      <img id="myGif" src="./assets/img/main.gif">
-    </div>
-  </section>
-
-  <section id="special" class="section">
-    <div class="container">
-      <h1 class="title">
-        Hi! I am Sahil
-      </h1>
-      <br />
-      <h2 class="subtitle">
-        <strong id="s1">Computer Engineering Undergraduate</strong>
-        <strong id="s2" style="display: none;">Web Developer</strong>
-        <strong id="s3" style="display: none;">Competitive Programmer</strong>
-        <strong id="s4" style="display: none;">Technology Enthusiast</strong>
-      </h2>
-    </div>
-  </section>
-
-
-      <section class="section skill">
-        <div class="container">
-          <a class="button is-info is-outlined is-medium myl" href="./work.html">Work</a>
-          <a class="button is-info is-outlined is-medium myl" href="./skills.html">Skills</a>
-          <a class="button is-info is-outlined is-medium myl" href="./about.html">About</a>
-          <a class="button is-info is-outlined is-medium myl" href="./contact.html">Contact</a>
-        </div>
-      </section>
-
-
-  <section class="section">
-    <strong class="workP">Work in progress</strong>
-  </section>
-
-  <footer class="footer myFooter">
-    <div class="content has-text-centered">
-      <p>
-        Made by  <strong><a href="./index.html">Md. Sahil Khan</a></strong>
-      </p>
-      <div id="contactLinks">
-        <span class="icon clink">
-          <a href="https://github.com/sahilkhan03"><i style="color: black;" class="fab fa-github"></i></a>
-        </span>
-        <span class="icon clink">
-          <a href="https://www.linkedin.com/in/md-sahil-khan-412799179/"><i style="color : #3273dc" class="fab fa-linkedin"></i></a>
-        </span>
-        <span class="icon clink">
-          <a href="mailto:sahilkhan0307.sk@gmail.com"><i style="color: #d93025;" class="fas fa-envelope"></i></a>
-        </span>
-        <span class="icon clink">
-          <a href="https://api.whatsapp.com/send?phone=919599276643"><i style="color: green;" class="fab fa-whatsapp"></i></a>
-        </span>
-      </div>
-    </div>
-  </footer>
-
-  <script type="text/javascript" src="./assets/js/script.js"></script>
-
-</body>
+    <script type="text/javascript" src="/js/script.js"></script>
+  </body>
 </html>

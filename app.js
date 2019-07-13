@@ -9,4 +9,9 @@ app
   .set("view engine", "ejs")
   .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
-app.get("/", (req, res) => res.render());
+app
+  .get("/", (req, res) => res.render("index"))
+  .get("/about", (req, res) => res.render("about"))
+  .get("/work", (req, res) => res.render("work"))
+  .get("/skills", (req, res) => res.render("skills"))
+  .get("/contact", (req, res) => res.render("contact"));
